@@ -6,9 +6,114 @@ KACEBootstrap
 </name>
 </assembly>
 <members>
-<member name="F:KACEBootstrap.RegisterExternalLogin.userName">
+<member name="F:KACEBootstrap.Dashboard1.TextBox1">
 	<summary>
-userName control.
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:KACEBootstrap.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.FeaturedContent">
+	<summary>
+FeaturedContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Site_Mobile.ViewSwitcher1">
+	<summary>
+ViewSwitcher1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.SiteMaster.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap._Default.lblQueueTitle">
+	<summary>
+lblQueueTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap._Default.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap._Default.SqlDataSourceITHelpDesk">
+	<summary>
+SqlDataSourceITHelpDesk control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -22,57 +127,9 @@ providerDetails control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Login.ErrorMessage">
+</member><member name="F:KACEBootstrap.RegisterExternalLogin.userName">
 	<summary>
-ErrorMessage control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.FailureText">
-	<summary>
-FailureText control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.UserName">
-	<summary>
-UserName control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.Password">
-	<summary>
-Password control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.RememberMe">
-	<summary>
-RememberMe control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.RegisterHyperLink">
-	<summary>
-RegisterHyperLink control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Login.OpenAuthLogin">
-	<summary>
-OpenAuthLogin control.
+userName control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -174,6 +231,67 @@ To modify move field declaration from designer file to code-behind file.
  Auto-generated field.
  To modify move field declaration from designer file to code-behind file.
  </remarks>
+</member><member name="P:KACEBootstrap.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:KACEBootstrap.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:KACEBootstrap.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceClosedTickets">
+	<summary>
+SqlDataSourceClosedTickets control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceListQueues">
+	<summary>
+SqlDataSourceListQueues control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Dashboard.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Dashboard.ltrChart">
+	<summary>
+ltrChart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Dashboard.ltrChart2">
+	<summary>
+ltrChart2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.Dashboard.ltrChart3">
+	<summary>
+ltrChart3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:KACEBootstrap.Register.ErrorMessage">
 	<summary>
 ErrorMessage control.
@@ -206,90 +324,57 @@ ConfirmPassword control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.SiteMaster.MainContent">
+</member><member name="F:KACEBootstrap.Login.ErrorMessage">
 	<summary>
-MainContent control.
+ErrorMessage control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.Computer">
+</member><member name="F:KACEBootstrap.Login.FailureText">
 	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:KACEBootstrap.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.Head1">
-	<summary>
-Head1 control.
+FailureText control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.HeadContent">
+</member><member name="F:KACEBootstrap.Login.UserName">
 	<summary>
-HeadContent control.
+UserName control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.form1">
+</member><member name="F:KACEBootstrap.Login.Password">
 	<summary>
-form1 control.
+Password control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.FeaturedContent">
+</member><member name="F:KACEBootstrap.Login.RememberMe">
 	<summary>
-FeaturedContent control.
+RememberMe control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.MainContent">
+</member><member name="F:KACEBootstrap.Login.RegisterHyperLink">
 	<summary>
-MainContent control.
+RegisterHyperLink control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Site_Mobile.ViewSwitcher1">
+</member><member name="F:KACEBootstrap.Login.OpenAuthLogin">
 	<summary>
-ViewSwitcher1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap._Default.lblQueueTitle">
-	<summary>
-lblQueueTitle control.
+OpenAuthLogin control.
 </summary>
 	<remarks>
 Auto-generated field.
