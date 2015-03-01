@@ -6,15 +6,7 @@ KACEBootstrap
 </name>
 </assembly>
 <members>
-<member name="F:KACEBootstrap.Dashboard1.TextBox1">
-	<summary>
-TextBox1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:KACEBootstrap.My.MyWebExtension.Computer">
+<member name="P:KACEBootstrap.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.
  </summary>
@@ -135,6 +127,14 @@ userName control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:KACEBootstrap.Dashboard1.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:KACEBootstrap.Manage.SuccessMessagePlaceHolder">
 	<summary>
  SuccessMessagePlaceHolder control.
@@ -244,9 +244,9 @@ To modify move field declaration from designer file to code-behind file.
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceClosedTickets">
+</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceKACE">
 	<summary>
-SqlDataSourceClosedTickets control.
+SqlDataSourceKACE control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -260,33 +260,17 @@ SqlDataSourceListQueues control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Dashboard.DropDownList1">
+</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceChart">
 	<summary>
-DropDownList1 control.
+SqlDataSourceChart control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:KACEBootstrap.Dashboard.ltrChart">
+</member><member name="F:KACEBootstrap.Dashboard.SqlDataSourceChart0">
 	<summary>
-ltrChart control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Dashboard.ltrChart2">
-	<summary>
-ltrChart2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:KACEBootstrap.Dashboard.ltrChart3">
-	<summary>
-ltrChart3 control.
+SqlDataSourceChart0 control.
 </summary>
 	<remarks>
 Auto-generated field.

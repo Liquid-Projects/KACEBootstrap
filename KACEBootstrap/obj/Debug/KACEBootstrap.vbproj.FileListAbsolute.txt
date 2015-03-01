@@ -63,6 +63,7 @@ C:\Projects\KACEBootstrap\KACEBootstrap\bin\WebForms_Basic.xml
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\Antlr3.Runtime.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\AspNet.ScriptManager.jQuery.dll
+C:\Projects\KACEBootstrap\KACEBootstrap\bin\DotNet.Highcharts.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\EntityFramework.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\EntityFramework.SqlServer.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\Microsoft.AspNet.FriendlyUrls.dll
@@ -87,6 +88,7 @@ C:\Projects\KACEBootstrap\KACEBootstrap\bin\Owin.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\System.Web.Optimization.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\System.Web.Providers.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\WebGrease.dll
+C:\Projects\KACEBootstrap\KACEBootstrap\bin\DotNet.Highcharts.pdb
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\System.Web.Optimization.xml
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\Antlr3.Runtime.pdb
 C:\Projects\KACEBootstrap\KACEBootstrap\bin\Newtonsoft.Json.xml
@@ -111,5 +113,3 @@ C:\Projects\KACEBootstrap\KACEBootstrap\obj\Debug\KACEBootstrap.vbproj.GenerateR
 C:\Projects\KACEBootstrap\KACEBootstrap\obj\Debug\KACEBootstrap.dll
 C:\Projects\KACEBootstrap\KACEBootstrap\obj\Debug\WebForms_Basic.xml
 C:\Projects\KACEBootstrap\KACEBootstrap\obj\Debug\KACEBootstrap.pdb
-C:\Projects\KACEBootstrap\KACEBootstrap\bin\DotNet.Highcharts.dll
-C:\Projects\KACEBootstrap\KACEBootstrap\bin\DotNet.Highcharts.pdb

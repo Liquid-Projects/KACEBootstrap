@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class Dashboard
 
     '''<summary>
-    '''SqlDataSourceClosedTickets control.
+    '''SqlDataSourceKACE control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents SqlDataSourceClosedTickets As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents SqlDataSourceKACE As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
     '''SqlDataSourceListQueues control.
@@ -32,38 +32,20 @@ Partial Public Class Dashboard
     Protected WithEvents SqlDataSourceListQueues As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
-    '''DropDownList1 control.
+    '''SqlDataSourceChart control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents SqlDataSourceChart As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
-    '''ltrChart control.
+    '''SqlDataSourceChart0 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ltrChart As Global.System.Web.UI.WebControls.Literal
-
-    '''<summary>
-    '''ltrChart2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ltrChart2 As Global.System.Web.UI.WebControls.Literal
-
-    '''<summary>
-    '''ltrChart3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ltrChart3 As Global.System.Web.UI.WebControls.Literal
+    Protected WithEvents SqlDataSourceChart0 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
