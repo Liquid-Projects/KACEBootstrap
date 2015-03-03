@@ -6,7 +6,23 @@ KACEBootstrap
 </name>
 </assembly>
 <members>
-<member name="P:KACEBootstrap.My.MyWebExtension.Computer">
+<member name="F:KACEBootstrap.DashboardCatagories.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:KACEBootstrap.DashboardCatagories.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:KACEBootstrap.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.
  </summary>
