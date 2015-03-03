@@ -1,0 +1,3 @@
+﻿DECLARE @ChartID INT
+SET @ChartID = 1
+SELECT Chart.Id, Chart.Title, Chart.SubTitle, Chart.Colors, Chart.Height, Chart.Width, Chart.Margin_Top, Chart.Margin_Bottom, Chart.Margin_Left, Chart.Margin_Right, Chart.Chart_Type, Chart_Legend.Legend_Layout, Chart_Legend.Legend_Align, Chart_Legend.Legend_VerticalAligns, Chart_Legend.Legend_X, Chart_Legend.Legend_Y, Chart_Legend.Legend_BorderWidth FROM Chart LEFT OUTER JOIN Chart_Legend ON Chart.Id = Chart_Legend.Chart_ID WHERE (Chart.Id = @ChartID)
