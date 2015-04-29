@@ -309,7 +309,7 @@ Public Class Dashboard
             'Gets the users who are only the Owners of the Current Queue
             'Note: This needs to be converted to SQL Lookup
             'Note:
-            Dim sql_Users As String = "SELECT USER.ID,USER.USER_NAME FROM USER LEFT JOIN USER_LABEL_JT ON (USER_LABEL_JT.USER_ID=USER.ID) LEFT JOIN LABEL ON (USER_LABEL_JT.LABEL_ID=LABEL.ID) Left JOIN hd_queue_owner_label_jt ON (hd_queue_owner_label_jt.LABEL_ID=label.ID) WHERE hd_queue_owner_label_jt.HD_QUEUE_ID=@QUEUE_ID GROUP BY USER.ID ORDER BY USER.USER_NAME"
+            Dim sql_Users As String = "SELECT USER.ID,USER.USER_NAME FROM USER LEFT JOIN USER_LABEL_JT ON (USER_LABEL_JT.USER_ID=USER.ID) LEFT JOIN LABEL ON (USER_LABEL_JT.LABEL_ID=LABEL.ID) Left JOIN HD_QUEUE_OWNER_LABEL_JT ON (HD_QUEUE_OWNER_LABEL_JT.LABEL_ID=LABEL.ID) WHERE HD_QUEUE_OWNER_LABEL_JT.HD_QUEUE_ID=@QUEUE_ID GROUP BY USER.ID ORDER BY USER.USER_NAME"
             SqlDataSourceKACE.SelectParameters.Clear()
             SqlDataSourceKACE.SelectParameters.Add("QUEUE_ID", drvSqlChatData("KACE_QUEUE"))
             SqlDataSourceKACE.SelectCommand = sql_Users

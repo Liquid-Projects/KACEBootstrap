@@ -191,6 +191,8 @@
     <Content Include="App_Data\aspnet-KACEBootstrap-20150208025312_log.ldf">
       <DependentUpon>aspnet-KACEBootstrap-20150208025312.mdf</DependentUpon>
     </Content>
+    <Content Include="China\Default.aspx" />
+    <Content Include="China\NewTicket.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -340,6 +342,20 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
+    <Compile Include="China\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="China\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="China\NewTicket.aspx.designer.vb">
+      <DependentUpon>NewTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="China\NewTicket.aspx.vb">
+      <DependentUpon>NewTicket.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>

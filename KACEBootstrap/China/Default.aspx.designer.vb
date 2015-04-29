@@ -11,16 +11,16 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class DashboardCatagories
+Partial Public Class _Default3
 
     '''<summary>
-    '''litchart control.
+    '''lblQueueTitle control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents litchart As Global.System.Web.UI.WebControls.Literal
+    Protected WithEvents lblQueueTitle As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''GridView1 control.
@@ -32,20 +32,11 @@ Partial Public Class DashboardCatagories
     Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''SqlDataSourceKACE control.
+    '''SqlDataSourceITHelpDesk control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents SqlDataSourceKACE As Global.System.Web.UI.WebControls.SqlDataSource
-
-    '''<summary>
-    '''SqlDataSourceChart control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDataSourceChart As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents SqlDataSourceITHelpDesk As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
